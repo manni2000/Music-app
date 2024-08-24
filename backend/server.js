@@ -30,8 +30,8 @@ mongoose.connect(process.env.MONGO_URI, {
   .then(() => console.log('MongoDB connected successfully'))
   .catch(err => console.error('MongoDB connection error:', err));
 
-// Serve static files
-app.use(express.static(path.join(path.resolve(), 'dist')));
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(path.resolve(), 'public')));
 
 // Routes
 app.use("/api/v1/auth", authRoutes);
@@ -41,11 +41,9 @@ app.get("/api/v1/stream/:filename", streamSong);
 app.get('/api/v1/songs', getSongs);
 
 // Fallback to index.html for SPA
-
 app.get("*", (req, res) => {
   res.sendFile(path.resolve('public/index.html'));
 });
-
 
 // Start the server
 app.listen(1337, () => {
