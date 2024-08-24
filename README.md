@@ -33,8 +33,8 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/manni2000/Music-player-app.git
-   cd Music-player-app
+   git clone https://github.com/manni2000/Music-app.git
+   cd Music-app
    ```
 
 2. **Install Dependencies**:
