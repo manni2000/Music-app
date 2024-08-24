@@ -69,7 +69,7 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
      ```
 
 5. **Access the Application**:
-   - Once both servers are running, you can access the application by navigating to `http://localhost:3000` in your web browser.
+   - Once both servers are running, you can access the application by navigating to `http://localhost:1337` in your web browser.
   
 ## Preview
 
