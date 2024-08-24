@@ -53,8 +53,6 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
      ```env
      MONGO_URI=your_mongodb_uri
      JWT_SECRET=your_jwt_secret
-     SPOTIFY_CLIENT_ID=your_spotify_client_id
-     SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
      ```
 
 4. **Start the Development Server**:
