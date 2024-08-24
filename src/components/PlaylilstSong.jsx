@@ -36,7 +36,7 @@ const PlaylilstSong = ({ title, artistName, songSrc ,playlistId }) => {
 
   const removeSong = async () => {
     const { data,status } = await axios.delete(
-      `http://localhost:1337/api/v1/playlist/remove/${playlistId}?song=${title}`,
+      `https://music-player-app-backend.vercel.app/api/v1/playlist/remove/${playlistId}?song=${title}`,
       {
         headers,
       }

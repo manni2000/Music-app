@@ -47,5 +47,5 @@ app.get("*", (req, res) => {
 
 // Start the server
 app.listen(1337, () => {
-  console.log(`Server is running at http://localhost:1337`);
+  console.log(`Server is running at localhost:1337`);
 });

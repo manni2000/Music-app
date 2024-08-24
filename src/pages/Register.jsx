@@ -14,7 +14,7 @@ const Register = () => {
 
   let __URL__ ;
   if ( document.domain === "localhost" ) {
-    __URL__ = "http://localhost:1337";
+    __URL__ = "https://music-player-app-backend.vercel.app/";
   } else {
     __URL__ = "";
   }
