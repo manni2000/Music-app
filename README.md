@@ -34,18 +34,17 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/manni2000/Music-app.git
-   cd Music-app
+   cd Music-player-app
    ```
 
 2. **Install Dependencies**:
    - Navigate to the frontend directory and install dependencies:
      ```bash
-     cd client
      npm install
      ```
    - Navigate to the backend directory and install dependencies:
      ```bash
-     cd ../server
+     cd ../backend
      npm install
      ```
 
@@ -61,16 +60,18 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 4. **Start the Development Server**:
    - Start the backend server:
      ```bash
-     cd server
      npm start
      ```
    - Start the frontend development server:
      ```bash
-     cd ../client
+     cd ../backend
      npm start
      ```
 
 5. **Access the Application**:
    - Once both servers are running, you can access the application by navigating to `http://localhost:3000` in your web browser.
+  
+## Preview
+
 
 This setup will allow you to run the music app locally and explore its features.
