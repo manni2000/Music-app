@@ -49,7 +49,7 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
      ```
 
 3. **Set Up Environment Variables**:
-   - Create a `.env` file in the `server` directory and configure the following environment variables:
+   - Create a `.env` file in the `backend` directory and configure the following environment variables:
      ```env
      MONGO_URI=your_mongodb_uri
      JWT_SECRET=your_jwt_secret
