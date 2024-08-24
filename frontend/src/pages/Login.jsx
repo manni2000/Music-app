@@ -15,7 +15,7 @@ const Login = () => {
 
   let __URL__ ;
   if ( document.domain === "localhost" ) {
-    __URL__ = "https://music-player-app-backend.vercel.app/";
+    __URL__ = "http://localhost:1337";
   } else {
     __URL__ = "";
   }

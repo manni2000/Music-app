@@ -24,7 +24,7 @@ const Playlist = () => {
   const deletePlaylist = async () => {
     setLoading(true);
     const { data, status } = await axios.delete(
-      `https://music-player-app-backend.vercel.app/api/v1/playlist/delete/${id}`,
+      `http://localhost:1337/api/v1/playlist/delete/${id}`,
       { headers }
     );
     if (status === 200) {
