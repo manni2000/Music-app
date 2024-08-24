@@ -75,5 +75,39 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 ## Preview
 ![image](https://github.com/user-attachments/assets/8f855e54-56d0-4917-b957-6b0387f50695)
 
+## Here's a step-by-step guide to using the Music App once the live server is opened:
 
-This setup will allow you to run the music app locally and explore its features.
+### Step 1: Open the Live Server
+- Navigate to the URL where the app is hosted.
+
+### Step 2: Sign Up or Log In
+- **Sign Up:** If you are a new user, click on the "Sign Up" button and fill in the required details to create an account.
+- **Log In:** If you already have an account, click on the "Log In" button and enter your credentials.
+
+### Step 3: Redirect to Home Page
+- After successfully signing up or logging in, you will be redirected to the home page.
+
+### Step 4: Navigate the Home Page
+- On the home page, you will see two main buttons: **Upload** and **Stream**.
+
+### Step 5: Upload Songs
+- Click on the **Upload** button.
+- A file selection dialog will appear. You can upload any number of songs from your device.
+- After uploading, the songs will be added to your library.
+
+### Step 6: Stream Songs
+- Click on the **Stream** button.
+- You will be able to see the list of songs available in your library.
+- You can play any song by clicking on it.
+
+### Step 7: Add to Playlist
+- While streaming a song, you have the option to add it to a playlist.
+- Create a new playlist or add the song to an existing playlist.
+
+### Step 8: Log Out
+- After you are done, you can log out by clicking on the **Log Out** button, which will be available on the navigation bar or in a dropdown menu.
+
+**These instructions should guide you through the basic functionalities of the Music App.**
+
+
+
