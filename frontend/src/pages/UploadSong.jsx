@@ -83,7 +83,7 @@ const UploadSong = () => {
           <input
             type="text"
             name="title"
-            className=" px-5 text-sm bg-slate-100 border-b-blue-200 border-b-2 rounded-md placeholder:text-gray-350 text-gray-300  h-10 outline-none"
+            className=" px-5 text-sm bg-slate-100 border-b-blue-200 border-b-2 rounded-md placeholder:text-gray-350 text-gray-900  h-10 outline-none"
             placeholder="Enter the description"
             onChange={(e) => setDescription(e.target.value)}
             required
