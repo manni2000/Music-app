@@ -41,9 +41,11 @@ app.get("/api/v1/stream/:filename", streamSong);
 app.get('/api/v1/songs', getSongs);
 
 // Fallback to index.html for SPA
+
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve('dist/index.html'));
+  res.sendFile(path.resolve('public/index.html'));
 });
+
 
 // Start the server
 app.listen(1337, () => {
