@@ -7,7 +7,7 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 1. **Frontend**:
    - **React.js**: For building the user interface.
    - **Redux**: For state management, especially for managing the state of the music player and user authentication.
-   - **Material-UI (MUI)**: For styling the components and creating a responsive design.
+   - **Tailwind-CSS**: For styling the components and creating a responsive design.
    - **Axios**: For making HTTP requests to the backend.
 
 2. **Backend**:
