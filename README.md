@@ -23,7 +23,7 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
    - **Spotify API**: For fetching music data, including tracks, albums, and artist information.
   
 5. **Deployment**:
-   - **For deployment i used 'render' free cloud hosting website.**
+   - **For deployment i used render free cloud hosting website.**
 
 ### Functionality:
 - **User Authentication**: Users can sign up and log in using JWT-based authentication.
