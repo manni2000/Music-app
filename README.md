@@ -43,6 +43,7 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 2. **Install Dependencies**:
    - Navigate to the frontend directory and install dependencies:
      ```bash
+     cd frontend
      npm install
      ```
    - Navigate to the backend directory and install dependencies:
@@ -61,11 +62,12 @@ It is a small music player web app using the MERN stack (MongoDB, Express, React
 4. **Start the Development Server**:
    - Start the backend server:
      ```bash
-     npm start
+     cd backend
+     node server
      ```
    - Start the frontend development server:
      ```bash
-     cd ../backend
+     cd ../frontend
      npm start
      ```
 
